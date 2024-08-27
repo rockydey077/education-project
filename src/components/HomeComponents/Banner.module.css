@@ -1,0 +1,10 @@
+.header_bg {
+  background-image: url("../../../public/assets/hero-.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text_shadow {
+  text-shadow: 0px 0px 2px #000000;
+}
