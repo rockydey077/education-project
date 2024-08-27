@@ -2,6 +2,7 @@ import Banner from "@/components/HomeComponents/Banner";
 import CampusLife from "@/components/HomeComponents/CampusLife";
 import ChooseUs from "@/components/HomeComponents/ChooseUs";
 import LatestNews from "@/components/HomeComponents/LatestNews";
+import Record from "@/components/HomeComponents/Record";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Banner />
       <LatestNews />
       <ChooseUs />
+      <Record />
       <CampusLife />
     </main>
   );
