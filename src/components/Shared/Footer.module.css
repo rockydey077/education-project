@@ -1,0 +1,16 @@
+.footer_animation {
+  animation: ue-pulse 2s 1.3s ease-out infinite;
+}
+
+@keyframes ue-pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 2px #0055a4, inset 0 0 1px #0055a4;
+  }
+  95% {
+    box-shadow: 0 0 50px transparent, inset 0 0 30px transparent;
+  }
+  100% {
+    transform: scale(2.25);
+  }
+}

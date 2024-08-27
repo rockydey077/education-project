@@ -2,4 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sofia&display=swap");
 
+.sofia {
+  font-family: "Sofia", cursive;
+}
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.hind-siliguri {
+  font-family: "Hind Siliguri", sans-serif;
+}
