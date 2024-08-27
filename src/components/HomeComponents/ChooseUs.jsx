@@ -3,12 +3,12 @@ import { FaQuoteLeft } from "react-icons/fa6";
 
 const ChooseUs = () => {
   return (
-    <div className="max-w-[1360px] mx-auto py-[50px] space-y-[50px]">
+    <div className="max-w-[1360px] mx-auto py-[50px] space-y-[50px] px-2 lg:px-0">
       <div>
         <h1 className="text-[#0055A4] text-[30px] rubik lg:text-[50px] font-semibold uppercase text-center mb-6">
           Why Choose SIMT?
         </h1>
-        <p className="rubik text-base lg:text-[25px] font-normal px-2 lg:px-0">
+        <p className="rubik text-base lg:text-[25px] font-normal">
           Saic Institute of Management and Technology (SIMT) is one of the best
           polytechnic institute in Dhaka, offering comprehensive programs in
           Diploma Engineering. At SIMT, we prioritize providing unwavering
