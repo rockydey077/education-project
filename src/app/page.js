@@ -1,7 +1,9 @@
+import ChooseUs from "@/components/HomeComponents/ChooseUs";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Hi</h1>
+    <main className="bg-[#FFF7F7]">
+      <ChooseUs />
     </main>
   );
 }

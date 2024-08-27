@@ -3,11 +3,7 @@
 @tailwind utilities;
 
 /* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sofia&display=swap");
-
-.sofia {
-  font-family: "Sofia", cursive;
-}
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Pacifico&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 .rubik {
   font-family: "Rubik", sans-serif;

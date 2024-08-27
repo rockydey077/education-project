@@ -12,8 +12,8 @@ const Footer = () => {
           <FaArrowUp />
         </div>
       </div>
-      <div className="max-w-[1360px] mx-auto py-[50px] flex gap-5">
-        <div className="space-y-5 w-[25%]">
+      <div className="max-w-[1360px] mx-auto py-[50px] flex flex-col lg:flex-row gap-5">
+        <div className="flex flex-col gap-5 items-center lg:items-start w-full lg:w-[25%]">
           <div className="flex items-center py-[15px]">
             <div className="w-full border-b-2 border-[#EE9CA7]"></div>
             <h2 className="rubik w-full mx-[10px] text-nowrap text-[25px] font-extrabold uppercase text-[#0055a4]">
@@ -21,7 +21,7 @@ const Footer = () => {
             </h2>
             <div className="w-full border-b-2 border-[#EE9CA7]"></div>
           </div>
-          <div className="space-y-[15px]">
+          <div className="space-y-[15px] ">
             <div className="flex items-center gap-[10px]">
               <div>
                 <svg
@@ -80,7 +80,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="space-y-5 w-[25%]">
+        <div className="space-y-5 w-full lg:w-[25%]">
           <div className="flex items-center py-[15px]">
             <div className="w-full border-b-2 border-[#EE9CA7]"></div>
             <h2 className="rubik w-full mx-[10px] text-nowrap text-[25px] font-extrabold uppercase text-[#0055a4]">
@@ -103,7 +103,7 @@ const Footer = () => {
             ></iframe>
           </div>
         </div>
-        <div className="space-y-5 w-[25%]">
+        <div className="flex flex-col gap-5 items-center lg:items-start w-full lg:w-[25%]">
           <div className="flex items-center py-[15px]">
             <div className="w-full border-b-2 border-[#EE9CA7]"></div>
             <h2 className="rubik w-full mx-[10px] text-nowrap text-[25px] font-extrabold uppercase text-[#0055a4]">
@@ -186,7 +186,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="space-y-5 w-[25%]">
+        <div className="space-y-5 w-full lg:w-[25%]">
           <div className="flex items-center py-[15px]">
             <div className="w-full border-b-2 border-[#EE9CA7]"></div>
             <h2 className="rubik w-full mx-[10px] text-nowrap text-[25px] font-extrabold uppercase text-[#0055a4]">
