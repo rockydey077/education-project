@@ -1,0 +1,24 @@
+.prevButton {
+  color: #0055a4;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  z-index: 10;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.nextButton {
+  color: #0055a4;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  z-index: 10;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
