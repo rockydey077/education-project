@@ -1,0 +1,7 @@
+.skew {
+  transform: skew(-20deg);
+}
+
+.skew_span {
+  transform: skew(20deg);
+}
