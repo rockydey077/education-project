@@ -6,6 +6,7 @@ import Record from "@/components/HomeComponents/Record";
 import About from "../components/HomeComponents/About";
 import MemberShip from "@/components/HomeComponents/MemberShip";
 import Partner from "@/components/HomeComponents/Partner";
+import Events from "@/components/HomeComponents/Events";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ChooseUs />
       <Record />
       <CampusLife />
+      <Events />
       <MemberShip />
       <Partner />
     </main>

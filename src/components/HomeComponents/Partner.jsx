@@ -2,7 +2,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 import Image from "next/image";
 import styles from "./Partner.module.css";
 import partner1 from "../../../public/assets/partners/BACI.jpg";
@@ -29,7 +29,11 @@ const Partner = () => {
       <div>
         <Swiper
           loop={true}
-          modules={[Navigation]}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          modules={[Navigation, Autoplay]}
           navigation={{
             nextEl: `.${styles.nextButton}`,
             prevEl: `.${styles.prevButton}`,
