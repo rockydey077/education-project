@@ -8,6 +8,7 @@ import MemberShip from "@/components/HomeComponents/MemberShip";
 import Partner from "@/components/HomeComponents/Partner";
 import Events from "@/components/HomeComponents/Events";
 import Feedback from "@/components/HomeComponents/Feedback";
+import Department from "@/components/HomeComponents/Department";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Banner />
       <LatestNews />
       <About />
+      <Department />
       <ChooseUs />
       <Record />
       <CampusLife />

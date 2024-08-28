@@ -27,6 +27,7 @@ const Feedback = () => {
             nextEl: `.${styles.nextButton}`,
             prevEl: `.${styles.prevButton}`,
           }}
+          slidesPerGroup={2}
           loop={true}
           modules={[Autoplay, Navigation]}
           breakpoints={{
@@ -72,7 +73,7 @@ const Feedback = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="">
-            <div className="pl-[35px]  space-y-4 pr-[35px] lg:pr-0">
+            <div className="pl-[35px] lg:pl-0 space-y-4 pr-[35px]">
               <p className="rubik text-sm lg:text-lg font-normal">
                 Technical and vocational education are highly valued in todays
                 society, and SAIC Polytechnic Institute actively meeting this
@@ -134,7 +135,7 @@ const Feedback = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="">
-            <div className="pl-[35px] space-y-4 pr-[35px] lg:pr-0">
+            <div className="pl-[35px] lg:pl-0 space-y-4 pr-[35px]">
               <p className="rubik text-sm lg:text-lg font-normal">
                 Technical and vocational education are highly valued in todays
                 society, and SAIC Polytechnic Institute actively meeting this
@@ -196,7 +197,7 @@ const Feedback = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="">
-            <div className="pl-[35px] space-y-4 pr-[35px] lg:pr-0">
+            <div className="pl-[35px] lg:pl-0 space-y-4 pr-[35px]">
               <p className="rubik text-sm lg:text-lg font-normal">
                 Technical and vocational education are highly valued in todays
                 society, and SAIC Polytechnic Institute actively meeting this
