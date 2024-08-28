@@ -1,5 +1,11 @@
 import styles from "./ChooseUs.module.css";
 import { FaQuoteLeft } from "react-icons/fa6";
+import { Sofia } from "next/font/google";
+
+const sofia = Sofia({
+  weight: ["400"],
+  subsets: ["latin"],
+});
 
 const ChooseUs = () => {
   return (
@@ -8,7 +14,7 @@ const ChooseUs = () => {
         <h1 className="text-[#0055A4] text-[30px] rubik lg:text-[50px] font-semibold uppercase text-center mb-6">
           Why Choose SIMT?
         </h1>
-        <p className="rubik text-base lg:text-[25px] font-normal">
+        <p className="rubik text-base lg:text-[25px] font-normal leading-[36px]">
           Saic Institute of Management and Technology (SIMT) is one of the best
           polytechnic institute in Dhaka, offering comprehensive programs in
           Diploma Engineering. At SIMT, we prioritize providing unwavering
@@ -24,7 +30,9 @@ const ChooseUs = () => {
         <div className="bg-[#0055A4] w-fit text-white text-2xl p-3 rounded-full">
           <FaQuoteLeft />
         </div>
-        <p className={`text-[20px] lg:text-[40px] font-normal`}>
+        <p
+          className={`${sofia.className} text-[20px] lg:text-[40px] font-normal leading-[48px]`}
+        >
           Our mission is to inspire our students to dream more, learn more, do
           more and become better in their respective life journeys.
         </p>

@@ -26,7 +26,7 @@ const About = () => {
         <h2 className="text-[#0055A4] text-lg lg:text-[30px] font-semibold uppercase text-center">
           Saic Institute of Management & Technology
         </h2>
-        <p className="text-base lg:text-xl font-normal">
+        <p className="text-base lg:text-xl font-normal lg:!leading-8">
           Saic Institute of Management and Technology, approved by the
           Bangladesh Technical Education Board (BTEB), stands as the largest
           private polytechnic institution in Dhaka. Recognizing the critical

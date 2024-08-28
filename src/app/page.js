@@ -4,6 +4,7 @@ import ChooseUs from "@/components/HomeComponents/ChooseUs";
 import LatestNews from "@/components/HomeComponents/LatestNews";
 import Record from "@/components/HomeComponents/Record";
 import About from "../components/HomeComponents/About";
+import MemberShip from "@/components/HomeComponents/MemberShip";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <ChooseUs />
       <Record />
       <CampusLife />
+      <MemberShip />
     </main>
   );
 }

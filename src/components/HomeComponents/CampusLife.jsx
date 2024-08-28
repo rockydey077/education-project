@@ -6,12 +6,12 @@ const CampusLife = () => {
       <h1 className="text-[#0055A4] text-[30px] lg:text-[50px] font-semibold uppercase text-center">
         Campus Life of SIMT
       </h1>
-      <p className="text-base lg:text-[25px] font-normal">
+      <p className="text-base lg:text-[25px] font-normal leading-[36px]">
         Saic Institute of Management and Technology (SIMT) in Dhaka excels not
         only academically but also in providing a vibrant student life
         experience. Our institute offers a plethora of engaging opportunities
         beyond the classroom, ensuring that students can explore and apply their
-        talents, skills, and interests. Whether it’s participating in
+        talents, skills, and interests. Whether it is participating in
         extracurricular activities or joining the Digital Club, students have
         the chance to broaden their horizons and become active members of our
         dynamic community.
