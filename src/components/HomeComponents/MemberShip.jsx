@@ -19,8 +19,8 @@ const MemberShip = () => {
             alt="institute image"
             className="w-full rounded-md object-cover"
           />
-          <div class="absolute inset-0 bg-[#0055A4] bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center transition-opacity rounded-md duration-500 border border-[#0055A4]">
-            <span class="text-white opacity-0 group-hover:opacity-100 transition-opacity  text-[50px] font-extrabold uppercase text-center p-3 leading-10 m-3">
+          <div className="absolute inset-0 bg-[#0055A4] bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center transition-opacity rounded-md duration-500 border border-[#0055A4]">
+            <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity  text-[50px] font-extrabold uppercase text-center p-3 leading-10 m-3">
               Basis
             </span>
           </div>
@@ -33,8 +33,8 @@ const MemberShip = () => {
             alt="institute image"
             className="w-full rounded-md object-cover"
           />
-          <div class="absolute inset-0 bg-[#0055A4] bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center transition-opacity rounded-md duration-500 border border-[#0055A4]">
-            <span class="text-white opacity-0 group-hover:opacity-100 transition-opacity  text-[50px] font-extrabold uppercase text-center p-3 leading-10 m-3">
+          <div className="absolute inset-0 bg-[#0055A4] bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center transition-opacity rounded-md duration-500 border border-[#0055A4]">
+            <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity  text-[50px] font-extrabold uppercase text-center p-3 leading-10 m-3">
               Bacco
             </span>
           </div>
@@ -47,8 +47,8 @@ const MemberShip = () => {
             alt="institute image"
             className="w-full rounded-md object-cover"
           />
-          <div class="absolute inset-0 bg-[#0055A4] bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center transition-opacity rounded-md duration-500 border border-[#0055A4]">
-            <span class="text-white opacity-0 group-hover:opacity-100 transition-opacity text-[50px] font-extrabold uppercase text-center p-3 leading-10 m-3">
+          <div className="absolute inset-0 bg-[#0055A4] bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center transition-opacity rounded-md duration-500 border border-[#0055A4]">
+            <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity text-[50px] font-extrabold uppercase text-center p-3 leading-10 m-3">
               BCS
             </span>
           </div>
@@ -61,8 +61,8 @@ const MemberShip = () => {
             alt="institute image"
             className="w-full rounded-md object-cover"
           />
-          <div class="absolute inset-0 bg-[#0055A4] bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center transition-all rounded-md duration-500 border border-[#0055A4] p-4">
-            <span class="text-white opacity-0 group-hover:opacity-100 transition-opacity text-[50px] font-extrabold uppercase text-center p-3 leading-10 m-3">
+          <div className="absolute inset-0 bg-[#0055A4] bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center transition-all rounded-md duration-500 border border-[#0055A4] p-4">
+            <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity text-[50px] font-extrabold uppercase text-center p-3 leading-10 m-3">
               ECAB
             </span>
           </div>

@@ -1,0 +1,11 @@
+.contact-bg {
+  background-image: url("../../../public/assets/contact/4MLXK3M-1024x603-1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+}
+
+.contact-header {
+  color: #ffffff00;
+  -webkit-text-stroke: 2px #0055a4;
+}

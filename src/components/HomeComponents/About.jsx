@@ -13,8 +13,8 @@ const About = () => {
           alt="institute image"
           className="w-full rounded-md object-cover"
         />
-        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center transition-opacity rounded-md duration-500">
-          <span class="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 text-[30px] font-semibold uppercase text-center p-3 leading-10">
+        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center transition-opacity rounded-md duration-500">
+          <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 text-[30px] font-semibold uppercase text-center p-3 leading-10">
             Saic Institute of Management & Technology
           </span>
         </div>
