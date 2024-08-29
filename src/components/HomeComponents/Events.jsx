@@ -58,7 +58,7 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#0055a4] hover:bg-[#000000] duration-300 text-white uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>
@@ -78,7 +78,7 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#0055a4] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>
@@ -98,7 +98,7 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#0055a4] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>
@@ -118,7 +118,7 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#0055a4] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>
@@ -138,7 +138,7 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#0055a4] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>
@@ -158,7 +158,7 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#0055a4] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>
@@ -178,7 +178,7 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#0055a4] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>
@@ -198,7 +198,7 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#0055a4] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>
@@ -218,7 +218,7 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#0055a4] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>

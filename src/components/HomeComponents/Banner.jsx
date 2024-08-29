@@ -18,11 +18,13 @@ const Banner = () => {
             তৈরি করবো প্রকৌশলী দক্ষ, মান সম্মত কর্মসংস্থান আমাদের লক্ষ্য।
           </h3>
           <div className="space-x-5">
-            <button className="px-[30px] py-5 rounded-[5px] text-xl font-semibold uppercase text-[#312783] bg-white">
-              Online Campus
+            <button className="relative overflow-hidden px-[30px] py-5 rounded-[5px] text-xl font-semibold uppercase text-[#312783] hover:text-white delay-50 duration-300 bg-white border-none focus:outline-none group">
+              <span className="relative z-50">Online Campus</span>
+              <span className="absolute inset-0 bg-[#0055A4] transition-transform duration-300 ease-out transform translate-x-full group-hover:translate-x-0"></span>
             </button>
-            <button className="px-[30px] py-5 rounded-[5px] text-xl font-semibold uppercase text-[#312783] bg-white">
-              Virtual Campus
+            <button className="relative overflow-hidden px-[30px] py-5 rounded-[5px] text-xl font-semibold uppercase text-[#312783] hover:text-white delay-50 duration-300 bg-white border-none focus:outline-none group">
+              <span className="relative z-50">Virtual Campus</span>
+              <span className="absolute inset-0 bg-[#0055A4] transition-transform duration-300 ease-out transform translate-x-full group-hover:translate-x-0"></span>
             </button>
           </div>
         </div>
