@@ -1,4 +1,4 @@
 .card:hover .card_content {
-  height: 160px;
+  height: 175px;
   transition-duration: 300ms;
 }

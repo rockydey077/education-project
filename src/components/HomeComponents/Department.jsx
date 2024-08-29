@@ -21,7 +21,7 @@ const Department = () => {
               <div className="text-4xl text-[#ff0000] p-5 rounded-full bg-white -mt-10">
                 <FaLaptopCode />
               </div>
-              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-5">
+              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-10">
                 Computer Science
               </h3>
               <div className="">
@@ -45,7 +45,7 @@ const Department = () => {
               <div className="text-4xl text-[#ff0000] p-5 rounded-full bg-white -mt-10">
                 <FaLaptopCode />
               </div>
-              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-5">
+              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-10">
                 Computer Science
               </h3>
               <div className="">
@@ -69,7 +69,7 @@ const Department = () => {
               <div className="text-4xl text-[#ff0000] p-5 rounded-full bg-white -mt-10">
                 <FaLaptopCode />
               </div>
-              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-5">
+              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-10">
                 Computer Science
               </h3>
               <div className="">
@@ -93,7 +93,7 @@ const Department = () => {
               <div className="text-4xl text-[#ff0000] p-5 rounded-full bg-white -mt-10">
                 <FaLaptopCode />
               </div>
-              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-5">
+              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-10">
                 Computer Science
               </h3>
               <div className="">
@@ -117,7 +117,7 @@ const Department = () => {
               <div className="text-4xl text-[#ff0000] p-5 rounded-full bg-white -mt-10">
                 <FaLaptopCode />
               </div>
-              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-5">
+              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-10">
                 Computer Science
               </h3>
               <div className="">
@@ -141,7 +141,7 @@ const Department = () => {
               <div className="text-4xl text-[#ff0000] p-5 rounded-full bg-white -mt-10">
                 <FaLaptopCode />
               </div>
-              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-5">
+              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-10">
                 Computer Science
               </h3>
               <div className="">
@@ -165,7 +165,7 @@ const Department = () => {
               <div className="text-4xl text-[#ff0000] p-5 rounded-full bg-white -mt-10">
                 <FaLaptopCode />
               </div>
-              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-5">
+              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-10">
                 Computer Science
               </h3>
               <div className="">
@@ -189,7 +189,7 @@ const Department = () => {
               <div className="text-4xl text-[#ff0000] p-5 rounded-full bg-white -mt-10">
                 <FaLaptopCode />
               </div>
-              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-5">
+              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-10">
                 Computer Science
               </h3>
               <div className="">
@@ -213,7 +213,7 @@ const Department = () => {
               <div className="text-4xl text-[#ff0000] p-5 rounded-full bg-white -mt-10">
                 <FaLaptopCode />
               </div>
-              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-5">
+              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-10">
                 Computer Science
               </h3>
               <div className="">
@@ -237,7 +237,7 @@ const Department = () => {
               <div className="text-4xl text-[#ff0000] p-5 rounded-full bg-white -mt-10">
                 <FaLaptopCode />
               </div>
-              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-5">
+              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-10">
                 Computer Science
               </h3>
               <div className="">
@@ -261,7 +261,7 @@ const Department = () => {
               <div className="text-4xl text-[#ff0000] p-5 rounded-full bg-white -mt-10">
                 <FaLaptopCode />
               </div>
-              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-5">
+              <h3 className="text-[#0055A4] bg-whiterubik text-xl font-semibold uppercase pb-10">
                 Computer Science
               </h3>
               <div className="">
