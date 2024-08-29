@@ -70,14 +70,26 @@ const MainContact = () => {
             </div>
           </div>
         </div>
-        <div className="lg:w-[41%]">
-          <Image
-            src={mainImg}
-            width={400}
-            height={300}
-            alt=""
-            className="w-full"
-          />
+        <div className="lg:w-[41%] relative group">
+          <div>
+            <Image
+              src={mainImg}
+              width={400}
+              height={300}
+              alt=""
+              className="w-full"
+            />
+          </div>
+          <div className="text-6xl text-[#0055A4] cursor-pointer absolute inset-0 flex items-center justify-center">
+            <div className="bg-white p-4 rounded-full">
+              <MdLocationOn className="" />
+            </div>
+          </div>
+          <div className="absolute inset-x-0 top-[59%] flex justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <h2 className="p-2 rounded bg-[#0055A4] text-white uppercase rubik text-base font-semibold">
+              Saic Institute of Management & Technology
+            </h2>
+          </div>
         </div>
       </div>
     </div>
