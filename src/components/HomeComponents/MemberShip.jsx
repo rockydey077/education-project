@@ -3,6 +3,7 @@ import baccoImg from "../../../public/assets/BACCO.png";
 import bcsImg from "../../../public/assets/BCS.png";
 import eCabImg from "../../../public/assets/Ecab.png";
 import Image from "next/image";
+import styles from "./MemberShip.module.css";
 
 const MemberShip = () => {
   return (
@@ -11,60 +12,87 @@ const MemberShip = () => {
         membership Affiliation
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-5">
-        <div className="relative group rounded-md">
-          <Image
-            src={basisImg}
-            width={300}
-            height={300}
-            alt="institute image"
-            className="w-full rounded-md object-cover"
-          />
-          <div className="absolute inset-0 bg-[#0055A4] bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center transition-opacity rounded-md duration-500 border border-[#0055A4]">
-            <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity  text-[50px] font-extrabold uppercase text-center p-3 leading-10 m-3">
-              Basis
-            </span>
+        <div className={`${styles.box} border border-[#0055A4] rounded-md`}>
+          <div>
+            <Image
+              src={basisImg}
+              width={300}
+              height={300}
+              alt="institute image"
+              className="w-full rounded-md object-cover"
+            />
+          </div>
+          <div className={`${styles["box-content"]}`}>
+            <div className={`${styles["inner-content"]}`}>
+              <span
+                className={`${styles.title} text-[50px] font-extrabold uppercase text-[#E6E6E6]`}
+              >
+                Basis
+              </span>
+            </div>
           </div>
         </div>
-        <div className="relative group rounded-md">
-          <Image
-            src={baccoImg}
-            width={300}
-            height={300}
-            alt="institute image"
-            className="w-full rounded-md object-cover"
-          />
-          <div className="absolute inset-0 bg-[#0055A4] bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center transition-opacity rounded-md duration-500 border border-[#0055A4]">
-            <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity  text-[50px] font-extrabold uppercase text-center p-3 leading-10 m-3">
-              Bacco
-            </span>
+
+        <div className={`${styles.box} border border-[#0055A4] rounded-md`}>
+          <div>
+            <Image
+              src={baccoImg}
+              width={300}
+              height={300}
+              alt="institute image"
+              className="w-full rounded-md object-cover"
+            />
+          </div>
+          <div className={`${styles["box-content"]}`}>
+            <div className={`${styles["inner-content"]}`}>
+              <span
+                className={`${styles.title} text-[50px] font-extrabold uppercase text-[#E6E6E6]`}
+              >
+                Bacco
+              </span>
+            </div>
           </div>
         </div>
-        <div className="relative group rounded-md">
-          <Image
-            src={bcsImg}
-            width={300}
-            height={300}
-            alt="institute image"
-            className="w-full rounded-md object-cover"
-          />
-          <div className="absolute inset-0 bg-[#0055A4] bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center transition-opacity rounded-md duration-500 border border-[#0055A4]">
-            <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity text-[50px] font-extrabold uppercase text-center p-3 leading-10 m-3">
-              BCS
-            </span>
+
+        <div className={`${styles.box} border border-[#0055A4] rounded-md`}>
+          <div>
+            <Image
+              src={bcsImg}
+              width={300}
+              height={300}
+              alt="institute image"
+              className="w-full rounded-md object-cover"
+            />
+          </div>
+          <div className={`${styles["box-content"]}`}>
+            <div className={`${styles["inner-content"]}`}>
+              <span
+                className={`${styles.title} text-[50px] font-extrabold uppercase text-[#E6E6E6]`}
+              >
+                BCS
+              </span>
+            </div>
           </div>
         </div>
-        <div className="relative group rounded-md">
-          <Image
-            src={eCabImg}
-            width={300}
-            height={300}
-            alt="institute image"
-            className="w-full rounded-md object-cover"
-          />
-          <div className="absolute inset-0 bg-[#0055A4] bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center transition-all rounded-md duration-500 border border-[#0055A4] p-4">
-            <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity text-[50px] font-extrabold uppercase text-center p-3 leading-10 m-3">
-              ECAB
-            </span>
+
+        <div className={`${styles.box} border border-[#0055A4] rounded-md`}>
+          <div>
+            <Image
+              src={eCabImg}
+              width={300}
+              height={300}
+              alt="institute image"
+              className="w-full rounded-md object-cover"
+            />
+          </div>
+          <div className={`${styles["box-content"]}`}>
+            <div className={`${styles["inner-content"]}`}>
+              <span
+                className={`${styles.title} text-[50px] font-extrabold uppercase text-[#E6E6E6]`}
+              >
+                Ecab
+              </span>
+            </div>
           </div>
         </div>
       </div>

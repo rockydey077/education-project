@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { FaFacebookF, FaArrowUp } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
@@ -5,12 +6,22 @@ import { IoLocationSharp } from "react-icons/io5";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="bg-[#F7F6F3] relative">
       <div className={` absolute top-3 left-[48%]`}>
-        <div className="text-xl text-white p-3 bg-[#0055A4] rounded-full w-fit hover:bg-[#323A40] cursor-pointer">
+        <button
+          onClick={scrollToTop}
+          className={`${styles.footer_animation} text-xl text-white p-3 bg-[#0055A4] rounded-full w-fit hover:bg-[#323A40] cursor-pointer`}
+        >
           <FaArrowUp />
-        </div>
+        </button>
       </div>
       <div className="max-w-[1360px] mx-auto py-[50px] flex flex-col lg:flex-row gap-5">
         {/* Contact Info */}

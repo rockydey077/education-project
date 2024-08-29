@@ -1,4 +1,15 @@
 .footer_animation {
+  position: relative;
+}
+
+.footer_animation::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
   animation: ue-pulse 2s 1.3s ease-out infinite;
 }
 

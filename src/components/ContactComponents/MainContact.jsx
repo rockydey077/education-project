@@ -81,7 +81,9 @@ const MainContact = () => {
             />
           </div>
           <div className="text-6xl text-[#0055A4] cursor-pointer absolute inset-0 flex items-center justify-center">
-            <div className="bg-white p-4 rounded-full">
+            <div
+              className={`${styles.location_animation} bg-white p-4 rounded-full`}
+            >
               <MdLocationOn className="" />
             </div>
           </div>
