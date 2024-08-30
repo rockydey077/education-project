@@ -50,7 +50,7 @@ const Navbar = () => {
                   <a href="#">Faculty Member</a>
                 </li>
                 <li className="hover:bg-[#0055A4] w-full p-[15px] hover:text-white">
-                  <a href="#">Photo Gallery</a>
+                  <Link href="/photo-gallery">Photo Gallery</Link>
                 </li>
               </ul>
             </li>
@@ -177,7 +177,7 @@ const Navbar = () => {
                       <a href="#">Faculty Member</a>
                     </li>
                     <li className="hover:bg-[#0055A4] w-full p-[15px] px-8 hover:text-white">
-                      <a href="#">Photo Gallery</a>
+                      <Link href="/photo-gallery">Photo Gallery</Link>
                     </li>
                   </ul>
                 )}
