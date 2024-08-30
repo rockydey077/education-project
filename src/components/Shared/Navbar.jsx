@@ -47,7 +47,7 @@ const Navbar = () => {
                   <Link href="/mission-vision">Mission & Vision</Link>
                 </li>
                 <li className="hover:bg-[#0055A4] border-b border-[#000] w-full p-[15px] hover:text-white">
-                  <a href="#">Faculty Member</a>
+                  <Link href="/faculty-member">Faculty Member</Link>
                 </li>
                 <li className="hover:bg-[#0055A4] w-full p-[15px] hover:text-white">
                   <Link href="/photo-gallery">Photo Gallery</Link>
@@ -174,7 +174,7 @@ const Navbar = () => {
                       <Link href="/mission-vision">Mission & Vision</Link>
                     </li>
                     <li className="hover:bg-[#0055A4] border-b-2 px-8 border-[#0055A4] w-full p-[15px] hover:text-white">
-                      <a href="#">Faculty Member</a>
+                      <Link href="/faculty-member">Faculty Member</Link>
                     </li>
                     <li className="hover:bg-[#0055A4] w-full p-[15px] px-8 hover:text-white">
                       <Link href="/photo-gallery">Photo Gallery</Link>
