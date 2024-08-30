@@ -41,7 +41,7 @@ const Navbar = () => {
                 className={`${styles["dropdown-content"]} absolute left-0 mt-2 w-48 bg-white rounded-sm hidden group-hover:block duration-300 ${styles["drop-shadow"]} rubik text-base font-semibold uppercase text-[#0055A4]`}
               >
                 <li className="hover:bg-[#0055A4] border-b border-[#000] w-full p-[15px] hover:text-white">
-                  <a href="#">History of SIMT</a>
+                  <Link href="/history-of-simt">History of SIMT</Link>
                 </li>
                 <li className="hover:bg-[#0055A4] border-b border-[#000] w-full p-[15px] hover:text-white">
                   <a href="#">Mission & Vision</a>
@@ -168,7 +168,7 @@ const Navbar = () => {
                     className={`w-full bg-white rounded-sm duration-300 rubik text-base font-semibold uppercase text-[#0055A4]`}
                   >
                     <li className="hover:bg-[#0055A4] border-b-2 px-8 border-[#0055A4] w-full p-[15px] hover:text-white">
-                      <a href="#">History of SIMT</a>
+                      <Link href="/history-of-simt">History of SIMT</Link>
                     </li>
                     <li className="hover:bg-[#0055A4] border-b-2 px-8 border-[#0055A4] w-full p-[15px] hover:text-white">
                       <a href="#">Mission & Vision</a>

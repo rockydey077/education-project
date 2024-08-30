@@ -1,11 +1,11 @@
-import ContactBanner from "@/components/ContactComponents/ContactBanner";
 import Location from "@/components/ContactComponents/Location";
 import MainContact from "@/components/ContactComponents/MainContact";
+import PageBanner from "@/components/Shared/PageBanner";
 
 const ContactPage = () => {
   return (
     <div>
-      <ContactBanner />
+      <PageBanner heading={"Contact Us"} />
       <MainContact />
       <Location />
     </div>
