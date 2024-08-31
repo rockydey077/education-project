@@ -3,6 +3,8 @@ import React from "react";
 import { FaUserGraduate } from "react-icons/fa";
 import { Raleway } from "next/font/google";
 import CSE from "@/components/FacultyComponents/CSE";
+import CivilArch from "@/components/FacultyComponents/CivilArch";
+import Textile from "@/components/FacultyComponents/Textile";
 
 const raleway = Raleway({
   weight: ["600", "800"],
@@ -45,8 +47,36 @@ const FacultyPage = () => {
             <div className="w-3 h-3 border-[3px] border-[#0055A4] rounded-full"></div>
           </div>
 
-          {/* CSR */}
+          {/* CSE */}
           <CSE />
+
+          {/* Border */}
+          <div className="flex justify-center items-center py-[50px]">
+            <div className="w-3 h-3 border-[3px] border-[#0055A4] rounded-full"></div>
+            <div className="w-32 h-[3px] bg-[#0055A4]"></div>
+            <div className="w-4 h-4 ml-[2px] border-[3px] border-[#0055A4] rounded-full"></div>
+            <div className="w-6 h-6 mx-2 border-[3px] border-[#0055A4] rounded-full"></div>
+            <div className="w-4 h-4 mr-[2px] border-[3px] border-[#0055A4] rounded-full"></div>
+            <div className="w-32 h-[3px] bg-[#0055A4]"></div>
+            <div className="w-3 h-3 border-[3px] border-[#0055A4] rounded-full"></div>
+          </div>
+
+          {/* Civil & Arch */}
+          <CivilArch />
+
+          {/* Border */}
+          <div className="flex justify-center items-center py-[50px]">
+            <div className="w-3 h-3 border-[3px] border-[#0055A4] rounded-full"></div>
+            <div className="w-32 h-[3px] bg-[#0055A4]"></div>
+            <div className="w-4 h-4 ml-[2px] border-[3px] border-[#0055A4] rounded-full"></div>
+            <div className="w-6 h-6 mx-2 border-[3px] border-[#0055A4] rounded-full"></div>
+            <div className="w-4 h-4 mr-[2px] border-[3px] border-[#0055A4] rounded-full"></div>
+            <div className="w-32 h-[3px] bg-[#0055A4]"></div>
+            <div className="w-3 h-3 border-[3px] border-[#0055A4] rounded-full"></div>
+          </div>
+
+          {/* Textile */}
+          <Textile />
         </div>
       </div>
     </div>
