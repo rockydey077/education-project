@@ -1,0 +1,13 @@
+.header-bg {
+  width: 100%;
+  background-image: url("../../../public/assets/leaf-4.png"),
+    url("../../../public/assets/leaf-3.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left center, right center;
+  background-size: contain, contain;
+}
+
+.header {
+  -webkit-text-fill-color: #ffffff00;
+  -webkit-text-stroke: 2px #0055a4;
+}

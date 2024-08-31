@@ -1,0 +1,27 @@
+.location_animation {
+  position: relative;
+}
+
+.location_animation::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  animation: e-hotspot-expand 2s 1.3s ease-out infinite;
+}
+
+@keyframes e-hotspot-expand {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 2px #00d7ff, inset 0 0 1px #00d7ff;
+  }
+  95% {
+    box-shadow: 0 0 50px transparent, inset 0 0 30px transparent;
+  }
+  100% {
+    transform: scale(2);
+  }
+}
