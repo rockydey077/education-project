@@ -2,6 +2,7 @@ import PageBanner from "@/components/Shared/PageBanner";
 import React from "react";
 import { FaUserGraduate } from "react-icons/fa";
 import { Raleway } from "next/font/google";
+import CSE from "@/components/FacultyComponents/CSE";
 
 const raleway = Raleway({
   weight: ["600", "800"],
@@ -16,7 +17,7 @@ const FacultyPage = () => {
       <div className="bg-[#FFF7F7] py-[50px]">
         <div className="max-w-[1360px] mx-auto px-2 lg:px-0">
           {/* Principle */}
-          <div className="bg-white p-[30px] hover:border-t-4 hover:border-red-500 rounded-[10px] hover:-translate-y-5 duration-300 lg:w-[486px] mx-auto text-center group">
+          <div className="bg-white p-[30px] hover:border-t-4 hover:border-red-500 rounded-[10px] hover:-translate-y-3 duration-300 lg:w-[486px] mx-auto text-center group">
             <div className="text-5xl text-white bg-[#0055A4] p-5 rounded-full w-fit mx-auto mb-5">
               <FaUserGraduate />
             </div>
@@ -43,6 +44,9 @@ const FacultyPage = () => {
             <div className="w-32 h-[3px] bg-[#0055A4]"></div>
             <div className="w-3 h-3 border-[3px] border-[#0055A4] rounded-full"></div>
           </div>
+
+          {/* CSR */}
+          <CSE />
         </div>
       </div>
     </div>
