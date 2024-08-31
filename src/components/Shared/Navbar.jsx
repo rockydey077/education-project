@@ -68,19 +68,19 @@ const Navbar = () => {
                   <Link href="/computer-science">Computer Engineering</Link>
                 </li>
                 <li className="hover:bg-[#0055A4] border-b border-[#000] w-full p-[15px] hover:text-white">
-                  <a href="#">Civil Engineering</a>
+                  <Link href="/civil">Civil Engineering</Link>
                 </li>
                 <li className="hover:bg-[#0055A4] border-b border-[#000] w-full p-[15px] hover:text-white">
-                  <a href="#">Architecture Engineering</a>
+                  <Link href="/architecture">Architecture Engineering</Link>
                 </li>
                 <li className="hover:bg-[#0055A4] border-b border-[#000] w-full p-[15px] hover:text-white">
-                  <a href="#">Electrical Engineering</a>
+                  <Link href="/electrical">Electrical Engineering</Link>
                 </li>
                 <li className="hover:bg-[#0055A4] border-b border-[#000] w-full p-[15px] hover:text-white">
-                  <a href="#">Mechanical Engineering</a>
+                  <Link href="/mechanical">Mechanical Engineering</Link>
                 </li>
                 <li className="hover:bg-[#0055A4] w-full p-[15px] hover:text-white">
-                  <a href="#">Textile Engineering</a>
+                  <Link href="/textile">Textile Engineering</Link>
                 </li>
               </ul>
             </li>
@@ -200,19 +200,19 @@ const Navbar = () => {
                       <Link href="/computer-science">Computer Engineering</Link>
                     </li>
                     <li className="hover:bg-[#0055A4] border-b-2 px-8 border-[#0055A4] w-full p-[15px] hover:text-white">
-                      <a href="#">Civil Engineering</a>
+                      <Link href="/civil">Civil Engineering</Link>
                     </li>
                     <li className="hover:bg-[#0055A4] border-b-2 px-8 border-[#0055A4] w-full p-[15px] hover:text-white">
-                      <a href="#">Architecture Engineering</a>
+                      <Link href="/architecture">Architecture Engineering</Link>
                     </li>
                     <li className="hover:bg-[#0055A4] border-b-2 px-8 border-[#0055A4] w-full p-[15px] hover:text-white">
-                      <a href="#">Electrical Engineering</a>
+                      <Link href="/electrical">Electrical Engineering</Link>
                     </li>
                     <li className="hover:bg-[#0055A4] border-b-2 px-8 border-[#0055A4] w-full p-[15px] hover:text-white">
-                      <a href="#">Mechanical Engineering</a>
+                      <Link href="/mechanical">Mechanical Engineering</Link>
                     </li>
                     <li className="hover:bg-[#0055A4] w-full px-8 p-[15px] hover:text-white">
-                      <a href="#">Textile Engineering</a>
+                      <Link href="/textile">Textile Engineering</Link>
                     </li>
                   </ul>
                 )}
