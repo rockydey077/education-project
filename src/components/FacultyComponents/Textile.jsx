@@ -16,7 +16,7 @@ const Textile = () => {
       >
         Department of{" "}
         <span className={`${styles["gradient-text"]} block lg:inline-block`}>
-          Textile
+          Electronics
         </span>{" "}
         Technology
       </h1>

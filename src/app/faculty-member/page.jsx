@@ -20,7 +20,7 @@ const FacultyPage = () => {
         <div className="max-w-[1360px] mx-auto px-2 lg:px-0">
           {/* Principle */}
           <div className="bg-white p-[30px] hover:border-t-4 hover:border-red-500 rounded-[10px] hover:-translate-y-3 duration-300 lg:w-[486px] mx-auto text-center group">
-            <div className="text-5xl text-white bg-[#0055A4] p-5 rounded-full w-fit mx-auto mb-5">
+            <div className="text-5xl text-white bg-[#2D3292] p-5 rounded-full w-fit mx-auto mb-5">
               <FaUserGraduate />
             </div>
             <h3
@@ -28,7 +28,7 @@ const FacultyPage = () => {
             >
               Engr. Dost Md. Samsuzzaman (Ronik)
             </h3>
-            <div className="group-hover:w-24 duration-300 w-20 h-[3px] bg-[#0055A4] mx-auto"></div>
+            <div className="group-hover:w-24 duration-300 w-20 h-[3px] bg-[#2D3292] mx-auto"></div>
             <p
               className={`${raleway.className} text-red-500 text-xl font-semibold capitalize mt-5`}
             >
@@ -38,13 +38,13 @@ const FacultyPage = () => {
 
           {/* Border */}
           <div className="flex justify-center items-center py-[50px]">
-            <div className="w-3 h-3 border-[3px] border-[#0055A4] rounded-full"></div>
-            <div className="w-32 h-[3px] bg-[#0055A4]"></div>
-            <div className="w-4 h-4 ml-[2px] border-[3px] border-[#0055A4] rounded-full"></div>
-            <div className="w-6 h-6 mx-2 border-[3px] border-[#0055A4] rounded-full"></div>
-            <div className="w-4 h-4 mr-[2px] border-[3px] border-[#0055A4] rounded-full"></div>
-            <div className="w-32 h-[3px] bg-[#0055A4]"></div>
-            <div className="w-3 h-3 border-[3px] border-[#0055A4] rounded-full"></div>
+            <div className="w-3 h-3 border-[3px] border-[#2D3292] rounded-full"></div>
+            <div className="w-32 h-[3px] bg-[#2D3292]"></div>
+            <div className="w-4 h-4 ml-[2px] border-[3px] border-[#2D3292] rounded-full"></div>
+            <div className="w-6 h-6 mx-2 border-[3px] border-[#2D3292] rounded-full"></div>
+            <div className="w-4 h-4 mr-[2px] border-[3px] border-[#2D3292] rounded-full"></div>
+            <div className="w-32 h-[3px] bg-[#2D3292]"></div>
+            <div className="w-3 h-3 border-[3px] border-[#2D3292] rounded-full"></div>
           </div>
 
           {/* CSE */}
@@ -52,13 +52,13 @@ const FacultyPage = () => {
 
           {/* Border */}
           <div className="flex justify-center items-center py-[50px]">
-            <div className="w-3 h-3 border-[3px] border-[#0055A4] rounded-full"></div>
-            <div className="w-32 h-[3px] bg-[#0055A4]"></div>
-            <div className="w-4 h-4 ml-[2px] border-[3px] border-[#0055A4] rounded-full"></div>
-            <div className="w-6 h-6 mx-2 border-[3px] border-[#0055A4] rounded-full"></div>
-            <div className="w-4 h-4 mr-[2px] border-[3px] border-[#0055A4] rounded-full"></div>
-            <div className="w-32 h-[3px] bg-[#0055A4]"></div>
-            <div className="w-3 h-3 border-[3px] border-[#0055A4] rounded-full"></div>
+            <div className="w-3 h-3 border-[3px] border-[#2D3292] rounded-full"></div>
+            <div className="w-32 h-[3px] bg-[#2D3292]"></div>
+            <div className="w-4 h-4 ml-[2px] border-[3px] border-[#2D3292] rounded-full"></div>
+            <div className="w-6 h-6 mx-2 border-[3px] border-[#2D3292] rounded-full"></div>
+            <div className="w-4 h-4 mr-[2px] border-[3px] border-[#2D3292] rounded-full"></div>
+            <div className="w-32 h-[3px] bg-[#2D3292]"></div>
+            <div className="w-3 h-3 border-[3px] border-[#2D3292] rounded-full"></div>
           </div>
 
           {/* Civil & Arch */}
@@ -66,13 +66,13 @@ const FacultyPage = () => {
 
           {/* Border */}
           <div className="flex justify-center items-center py-[50px]">
-            <div className="w-3 h-3 border-[3px] border-[#0055A4] rounded-full"></div>
-            <div className="w-32 h-[3px] bg-[#0055A4]"></div>
-            <div className="w-4 h-4 ml-[2px] border-[3px] border-[#0055A4] rounded-full"></div>
-            <div className="w-6 h-6 mx-2 border-[3px] border-[#0055A4] rounded-full"></div>
-            <div className="w-4 h-4 mr-[2px] border-[3px] border-[#0055A4] rounded-full"></div>
-            <div className="w-32 h-[3px] bg-[#0055A4]"></div>
-            <div className="w-3 h-3 border-[3px] border-[#0055A4] rounded-full"></div>
+            <div className="w-3 h-3 border-[3px] border-[#2D3292] rounded-full"></div>
+            <div className="w-32 h-[3px] bg-[#2D3292]"></div>
+            <div className="w-4 h-4 ml-[2px] border-[3px] border-[#2D3292] rounded-full"></div>
+            <div className="w-6 h-6 mx-2 border-[3px] border-[#2D3292] rounded-full"></div>
+            <div className="w-4 h-4 mr-[2px] border-[3px] border-[#2D3292] rounded-full"></div>
+            <div className="w-32 h-[3px] bg-[#2D3292]"></div>
+            <div className="w-3 h-3 border-[3px] border-[#2D3292] rounded-full"></div>
           </div>
 
           {/* Textile */}

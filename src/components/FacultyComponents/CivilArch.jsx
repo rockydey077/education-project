@@ -16,7 +16,7 @@ const CivilArch = () => {
       >
         Department of{" "}
         <span className={`${styles["gradient-text"]} block lg:inline-block`}>
-          Civil & Architecture
+          Electrical
         </span>{" "}
         Technology
       </h1>
