@@ -26,7 +26,7 @@ const MissionPage = () => {
         </div>
         <div className="lg:w-[49%] space-y-5 rubik text-xl">
           <h2
-            className={`${raleway.className} text-[#0055A4] text-[40px] uppercase font-extrabold`}
+            className={`${raleway.className} text-[#2D3192] text-[40px] uppercase font-extrabold`}
           >
             Vision
           </h2>
@@ -56,7 +56,7 @@ const MissionPage = () => {
             <div className="w-5 h-5 border-4 border-red-500 rounded-full"></div>
           </div>
           <h2
-            className={`${raleway.className} text-[#0055A4] text-[40px] uppercase font-extrabold`}
+            className={`${raleway.className} text-[#2D3192] text-[40px] uppercase font-extrabold`}
           >
             MISSION
           </h2>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import campusImg from "../../../public/assets/contact/building-956x1024.jpg";
+import campusImg from "../../../public/assets/contact/institute.jpeg";
 
 const History = () => {
   return (
@@ -16,24 +16,25 @@ const History = () => {
       </div>
       <div className="lg:w-[54%] space-y-5">
         <h2 className="text-center text-[#FF0000] text-[50px] oxanium uppercase font-extrabold">
-          22
+          26
         </h2>
-        <h4 className="text-center text-[#0055A4] oxanium font-semibold text-xl uppercase tracking-[10px]">
+        <h4 className="text-center text-[#2D3192] oxanium font-semibold text-xl uppercase tracking-[10px]">
           Years Of Experience
         </h4>
         <p className="rubik text-xl font-normal leading-8 lg:leading-10">
-          Saic Institute of Management and Technology, approved by the
-          Bangladesh Technical Education Board (BTEB), stands as the largest
-          private polytechnic institution in Dhaka. Recognizing the critical
-          link between quality education and technological advancement, SIMT
-          emphasizes the importance of technical education in nurturing skilled
-          manpower. As global demand for technical education continues to rise,
-          SIMT is dedicated to meeting this need. Established in June 2002 with
-          a single technology, SIMT quickly expanded its offerings to address
-          the growing demand. Overcoming initial challenges, SIMT is
-          administering admissions for the academic year 2023-2024, offering
-          enrollment opportunities across 14 distinct technologies, totaling
-          1000 seats.
+          Dhaka Institute of Engineering & Technology (DIET) is a private
+          technical institute based in Dhaka, Bangladesh, offering a variety of
+          engineering and technical programs. It provides diploma and
+          undergraduate degrees in disciplines such as Electrical Engineering,
+          Civil Engineering, Mechanical Engineering, and Computer Engineering,
+          along with other vocational and technical training courses. DIET aims
+          to equip students with practical skills and knowledge to meet industry
+          demands, often combining theoretical education with hands-on training.
+          While not as large as some major public engineering institutions in
+          Bangladesh, it still plays an important role in providing technical
+          education to meet local and regional needs. If you are looking for
+          specific information about their programs or admission criteria, I can
+          help find more details.
         </p>
       </div>
     </div>

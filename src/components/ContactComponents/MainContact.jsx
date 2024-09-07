@@ -1,5 +1,5 @@
 import Image from "next/image";
-import mainImg from "../../../public/assets/contact/building-956x1024.jpg";
+import mainImg from "../../../public/assets/contact/institute.jpeg";
 import { Sofia } from "next/font/google";
 import styles from "./MainContact.module.css";
 import { MdEmail, MdLocationOn, MdWifiCalling3 } from "react-icons/md";
@@ -31,7 +31,7 @@ const MainContact = () => {
               </h3>
               <div className="w-14 h-1 bg-[#0055A4]"></div>
               <p className="text-xl rubik font-semibold">
-                M/3, Section-14, Mirpur, Dhaka-1216
+                Bosila, Mohammadpur, Dhaka-1207
               </p>
             </div>
           </div>
@@ -47,9 +47,7 @@ const MainContact = () => {
                 Mobile
               </h3>
               <div className="w-14 h-1 bg-[#0055A4]"></div>
-              <p className="text-xl rubik font-semibold">
-                01936-005817, 01936-005818
-              </p>
+              <p className="text-xl rubik font-semibold">01885-999222</p>
             </div>
           </div>
           {/* Email */}
@@ -64,9 +62,7 @@ const MainContact = () => {
                 Email
               </h3>
               <div className="w-14 h-1 bg-[#0055A4]"></div>
-              <p className="text-xl rubik font-semibold">
-                simt.dhaka@gmail.com
-              </p>
+              <p className="text-xl rubik font-semibold">diet.bteb@gmail.com</p>
             </div>
           </div>
         </div>
@@ -77,7 +73,7 @@ const MainContact = () => {
               width={400}
               height={300}
               alt=""
-              className="w-full"
+              className="w-full rounded"
             />
           </div>
           <div className="text-6xl text-[#0055A4] cursor-pointer absolute inset-0 flex items-center justify-center">
@@ -89,7 +85,7 @@ const MainContact = () => {
           </div>
           <div className="absolute inset-x-0 top-[59%] flex justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <h2 className="p-2 rounded bg-[#0055A4] text-white uppercase rubik text-base font-semibold">
-              Saic Institute of Management & Technology
+              Dhaka Institute of Engineering & Technology
             </h2>
           </div>
         </div>

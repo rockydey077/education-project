@@ -74,7 +74,7 @@ const Navbar = () => {
                   <Link href="/civil">Civil Engineering</Link>
                 </li>
                 <li className="hover:bg-[#2D3192] border-b border-[#000] w-full p-[15px] hover:text-white">
-                  <Link href="/architecture">Electronics Engineering</Link>
+                  <Link href="/electronics">Electronics Engineering</Link>
                 </li>
                 <li className="hover:bg-[#2D3192] border-b border-[#000] w-full p-[15px] hover:text-white">
                   <Link href="/electrical">Electrical Engineering</Link>
@@ -200,7 +200,7 @@ const Navbar = () => {
                       <Link href="/civil">Civil Engineering</Link>
                     </li>
                     <li className="hover:bg-[#2D3192] border-b-2 px-8 border-[#2D3192] w-full p-[15px] hover:text-white">
-                      <Link href="/architecture">Electronics Engineering</Link>
+                      <Link href="/electronics">Electronics Engineering</Link>
                     </li>
                     <li className="hover:bg-[#2D3192] border-b-2 px-8 border-[#2D3192] w-full p-[15px] hover:text-white">
                       <Link href="/electrical">Electrical Engineering</Link>

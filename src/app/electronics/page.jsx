@@ -13,15 +13,15 @@ const poppins = Poppins({
   subsets: ["latin"],
 });
 
-const ArchitecturePage = () => {
+const ElectronicsPage = () => {
   return (
     <div>
-      <DepartmentBanner heading={"Diploma In Architecture Engineering"} />
+      <DepartmentBanner heading={"Diploma In Electronics Engineering"} />
       <div className="max-w-[1360px] mx-auto py-[50px] flex flex-col lg:flex-row gap-5 lg:gap-[2%] px-2 lg:px-0">
         <div
           className={`lg:w-[70%] space-y-5 ${raleway.className} text-2xl lg:text-[30px] font-semibold capitalize lg:text-justify`}
         >
-          <h2>Diploma In Architecture Engineering Program Objective</h2>
+          <h2>Diploma In Electronics Engineering Program Objective</h2>
           <p
             className={`text-base lg:text-lg font-normal ${poppins.className}`}
           >
@@ -106,4 +106,4 @@ const ArchitecturePage = () => {
   );
 };
 
-export default ArchitecturePage;
+export default ElectronicsPage;
