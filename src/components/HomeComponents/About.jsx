@@ -1,5 +1,5 @@
 import Image from "next/image";
-import buildingImg from "../../../public/assets/building.jpg";
+import buildingImg from "../../../public/assets/Details.jpg";
 import styles from "./About.module.css";
 
 const About = () => {
@@ -15,34 +15,35 @@ const About = () => {
         />
         <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center transition-opacity rounded-md duration-500">
           <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 text-[30px] font-semibold uppercase text-center p-3 leading-10">
-            Saic Institute of Management & Technology
+            Dhaka Institute of Engineering & Technology
           </span>
         </div>
       </div>
       <div className="lg:w-[65%] space-y-5 rubik">
-        <h3 className="text-[#0055A4] text-xl font-semibold uppercase text-center">
+        <h3 className="text-[#2D3192] text-xl font-semibold uppercase text-center">
           Welcome To
         </h3>
-        <h2 className="text-[#0055A4] text-lg lg:text-[30px] font-semibold uppercase text-center">
-          Saic Institute of Management & Technology
+        <h2 className="text-[#2D3192] text-lg lg:text-[30px] font-semibold uppercase text-center">
+          Dhaka Institute of Engineering & Technology
         </h2>
         <p className="text-base lg:text-xl font-normal lg:!leading-8">
-          Saic Institute of Management and Technology, approved by the
-          Bangladesh Technical Education Board (BTEB), stands as the largest
-          private polytechnic institution in Dhaka. Recognizing the critical
-          link between quality education and technological advancement, SIMT
-          emphasizes the importance of technical education in nurturing skilled
-          manpower. As global demand for technical education continues to rise,
-          SIMT is dedicated to meeting this need. Established in June 2002 with
-          a single technology, SIMT quickly expanded its offerings to address
-          the growing demand. Overcoming initial challenges, SIMT is
-          administering admissions for the academic year 2023-2024, offering
-          enrollment opportunities across 14 distinct technologies, totaling
-          1000 seats
+          Dhaka Institute of Engineering & Technology (DIET) is a private
+          technical institute based in Dhaka, Bangladesh, offering a variety of
+          engineering and technical programs. It provides diploma and
+          undergraduate degrees in disciplines such as Electrical Engineering,
+          Civil Engineering, Electronics Engineering, and Computer Engineering,
+          along with other vocational and technical training courses. DIET aims
+          to equip students with practical skills and knowledge to meet industry
+          demands, often combining theoretical education with hands-on training.
+          While not as large as some major public engineering institutions in
+          Bangladesh, it still plays an important role in providing technical
+          education to meet local and regional needs. If you are looking for
+          specific information about their programs or admission criteria, I can
+          help find more details.
         </p>
         <div className="text-center">
           <button
-            className={`${styles.skew} inline-block bg-[#0055a4] hover:bg-[#FFD9D9] hover:text-[#0055A4] text-white uppercase text-xl font-semibold px-[30px] py-[10px] duration-300`}
+            className={`${styles.skew} inline-block bg-[#2D3192] hover:bg-[#F68222] hover:text-[#2D3192] text-white uppercase text-xl font-semibold px-[30px] py-[10px] duration-300`}
           >
             <span className={`inline-block ${styles.skew_span}`}>
               Read More

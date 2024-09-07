@@ -3,8 +3,8 @@ import Marquee from "react-fast-marquee";
 const LatestNews = () => {
   return (
     <div className="max-w-[1360px] mx-auto p-[10px] flex items-center gap-3">
-      <div className="text-[#0055A4] uppercase text-[30px] font-semibold">
-        SIMT
+      <div className="text-[#2D3192] uppercase text-[30px] font-semibold">
+        DIET
       </div>
       <div className="text-[#ff0000] text-2xl rubik font-medium">
         <Marquee className="max-w-[265px] lg:max-w-[1260px]">
