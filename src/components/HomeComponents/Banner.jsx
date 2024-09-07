@@ -11,7 +11,7 @@ const Banner = () => {
         width={400}
         height={300}
         alt="banner image"
-        className="w-1/2 mt-20 lg:mt-[75px]"
+        className="w-full lg:w-1/2 mt-20 lg:mt-[75px]"
       />
     </div>
   );
