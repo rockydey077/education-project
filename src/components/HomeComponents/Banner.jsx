@@ -5,8 +5,14 @@ import bannerImg from "../../../public/assets/banner.png";
 
 const Banner = () => {
   return (
-    <div>
-      <Image src={bannerImg} width={400} height={300} alt="banner image" className="w-full h-auto mt-20 lg:mt-[75px]" />
+    <div className="flex justify-center bg-[#004AAC]">
+      <Image
+        src={bannerImg}
+        width={400}
+        height={300}
+        alt="banner image"
+        className="w-1/2 mt-20 lg:mt-[75px]"
+      />
     </div>
   );
 };
