@@ -23,7 +23,7 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 const Partner = () => {
   return (
     <div className="max-w-[1360px] mx-auto py-[50px] space-y-5 px-2 lg:px-0">
-      <h1 className="text-[#0055A4] rubik text-[30px] lg:text-[50px] font-semibold uppercase text-center">
+      <h1 className="text-[#2D3192] rubik text-[30px] lg:text-[50px] font-semibold uppercase text-center">
         Our Development Partner
       </h1>
       <div>
@@ -55,9 +55,9 @@ const Partner = () => {
           }}
         >
           <SwiperSlide className="relative">
-            <div className="absolute left-[43%] w-[50px] h-1 bg-[#0055A4]"></div>
+            <div className="absolute left-[43%] w-[50px] h-1 bg-[#2D3192]"></div>
             <Image
-              className="w-full border-2 border-[#0055A4] rounded p-5"
+              className="w-full border-2 border-[#2D3192] rounded p-5"
               src={partner1}
               width={400}
               height={300}
@@ -65,9 +65,9 @@ const Partner = () => {
             />
           </SwiperSlide>
           <SwiperSlide className="relative">
-            <div className="absolute left-[43%] w-[50px] h-1 bg-[#0055A4]"></div>
+            <div className="absolute left-[43%] w-[50px] h-1 bg-[#2D3192]"></div>
             <Image
-              className="w-full border-2 border-[#0055A4] rounded p-5"
+              className="w-full border-2 border-[#2D3192] rounded p-5"
               src={partner2}
               width={400}
               height={300}
@@ -75,9 +75,9 @@ const Partner = () => {
             />
           </SwiperSlide>
           <SwiperSlide className="relative">
-            <div className="absolute left-[43%] w-[50px] h-1 bg-[#0055A4]"></div>
+            <div className="absolute left-[43%] w-[50px] h-1 bg-[#2D3192]"></div>
             <Image
-              className="w-full border-2 border-[#0055A4] rounded p-5"
+              className="w-full border-2 border-[#2D3192] rounded p-5"
               src={partner3}
               width={400}
               height={300}
@@ -85,9 +85,9 @@ const Partner = () => {
             />
           </SwiperSlide>
           <SwiperSlide className="relative">
-            <div className="absolute left-[43%] w-[50px] h-1 bg-[#0055A4]"></div>
+            <div className="absolute left-[43%] w-[50px] h-1 bg-[#2D3192]"></div>
             <Image
-              className="w-full border-2 border-[#0055A4] rounded p-5"
+              className="w-full border-2 border-[#2D3192] rounded p-5"
               src={partner4}
               width={400}
               height={300}
@@ -95,9 +95,9 @@ const Partner = () => {
             />
           </SwiperSlide>
           <SwiperSlide className="relative">
-            <div className="absolute left-[43%] w-[50px] h-1 bg-[#0055A4]"></div>
+            <div className="absolute left-[43%] w-[50px] h-1 bg-[#2D3192]"></div>
             <Image
-              className="w-full border-2 border-[#0055A4] rounded p-5"
+              className="w-full border-2 border-[#2D3192] rounded p-5"
               src={partner5}
               width={400}
               height={300}
@@ -105,9 +105,9 @@ const Partner = () => {
             />
           </SwiperSlide>
           <SwiperSlide className="relative">
-            <div className="absolute left-[43%] w-[50px] h-1 bg-[#0055A4]"></div>
+            <div className="absolute left-[43%] w-[50px] h-1 bg-[#2D3192]"></div>
             <Image
-              className="w-full border-2 border-[#0055A4] rounded p-5"
+              className="w-full border-2 border-[#2D3192] rounded p-5"
               src={partner6}
               width={400}
               height={300}
@@ -115,9 +115,9 @@ const Partner = () => {
             />
           </SwiperSlide>
           <SwiperSlide className="relative">
-            <div className="absolute left-[43%] w-[50px] h-1 bg-[#0055A4]"></div>
+            <div className="absolute left-[43%] w-[50px] h-1 bg-[#2D3192]"></div>
             <Image
-              className="w-full border-2 border-[#0055A4] rounded p-5"
+              className="w-full border-2 border-[#2D3192] rounded p-5"
               src={partner7}
               width={400}
               height={300}
@@ -125,9 +125,9 @@ const Partner = () => {
             />
           </SwiperSlide>
           <SwiperSlide className="relative">
-            <div className="absolute left-[43%] w-[50px] h-1 bg-[#0055A4]"></div>
+            <div className="absolute left-[43%] w-[50px] h-1 bg-[#2D3192]"></div>
             <Image
-              className="w-full border-2 border-[#0055A4] rounded p-5"
+              className="w-full border-2 border-[#2D3192] rounded p-5"
               src={partner8}
               width={400}
               height={300}
@@ -135,9 +135,9 @@ const Partner = () => {
             />
           </SwiperSlide>
           <SwiperSlide className="relative">
-            <div className="absolute left-[43%] w-[50px] h-1 bg-[#0055A4]"></div>
+            <div className="absolute left-[43%] w-[50px] h-1 bg-[#2D3192]"></div>
             <Image
-              className="w-full border-2 border-[#0055A4] rounded p-5"
+              className="w-full border-2 border-[#2D3192] rounded p-5"
               src={partner9}
               width={400}
               height={300}
@@ -145,9 +145,9 @@ const Partner = () => {
             />
           </SwiperSlide>
           <SwiperSlide className="relative">
-            <div className="absolute left-[43%] w-[50px] h-1 bg-[#0055A4]"></div>
+            <div className="absolute left-[43%] w-[50px] h-1 bg-[#2D3192]"></div>
             <Image
-              className="w-full border-2 border-[#0055A4] rounded p-5"
+              className="w-full border-2 border-[#2D3192] rounded p-5"
               src={partner10}
               width={400}
               height={300}
@@ -155,9 +155,9 @@ const Partner = () => {
             />
           </SwiperSlide>
           <SwiperSlide className="relative">
-            <div className="absolute left-[43%] w-[50px] h-1 bg-[#0055A4]"></div>
+            <div className="absolute left-[43%] w-[50px] h-1 bg-[#2D3192]"></div>
             <Image
-              className="w-full border-2 border-[#0055A4] rounded p-5"
+              className="w-full border-2 border-[#2D3192] rounded p-5"
               src={partner11}
               width={400}
               height={300}
@@ -165,9 +165,9 @@ const Partner = () => {
             />
           </SwiperSlide>
           <SwiperSlide className="relative">
-            <div className="absolute left-[43%] w-[50px] h-1 bg-[#0055A4]"></div>
+            <div className="absolute left-[43%] w-[50px] h-1 bg-[#2D3192]"></div>
             <Image
-              className="w-full border-2 border-[#0055A4] rounded p-5"
+              className="w-full border-2 border-[#2D3192] rounded p-5"
               src={partner12}
               width={400}
               height={300}
@@ -175,9 +175,9 @@ const Partner = () => {
             />
           </SwiperSlide>
           <SwiperSlide className="relative">
-            <div className="absolute left-[43%] w-[50px] h-1 bg-[#0055A4]"></div>
+            <div className="absolute left-[43%] w-[50px] h-1 bg-[#2D3192]"></div>
             <Image
-              className="w-full border-2 border-[#0055A4] rounded p-5"
+              className="w-full border-2 border-[#2D3192] rounded p-5"
               src={partner13}
               width={400}
               height={300}
@@ -185,12 +185,12 @@ const Partner = () => {
             />
           </SwiperSlide>
           <div
-            className={`${styles.prevButton} text-3xl  hover:bg-[#0055A4] hover:text-white duration-200`}
+            className={`${styles.prevButton} text-3xl  hover:bg-[#2D3192] hover:text-white duration-200`}
           >
             <IoIosArrowBack />
           </div>
           <div
-            className={`${styles.nextButton} text-3xl hover:bg-[#0055A4] hover:text-white duration-200`}
+            className={`${styles.nextButton} text-3xl hover:bg-[#2D3192] hover:text-white duration-200`}
           >
             <IoIosArrowForward />
           </div>

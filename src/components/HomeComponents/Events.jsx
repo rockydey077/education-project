@@ -11,7 +11,7 @@ import events1 from "../../../public/assets/events/2-768x576.jpg";
 const Events = () => {
   return (
     <div className="max-w-[1360px] mx-auto py-[50px] space-y-5 px-2 lg:px-0">
-      <h1 className="text-[#0055A4] rubik text-[30px] lg:text-[50px] font-semibold uppercase text-center">
+      <h1 className="text-[#2D3192] rubik text-[30px] lg:text-[50px] font-semibold uppercase text-center">
         News & Events
       </h1>
       <div>
@@ -43,7 +43,7 @@ const Events = () => {
             },
           }}
         >
-          <SwiperSlide className="border border-[#0055A4] rounded-md">
+          <SwiperSlide className="border border-[#2D3192] rounded-md">
             <div>
               <Image
                 className="rounded-t-md w-full"
@@ -58,12 +58,12 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] hover:bg-[#000000] duration-300 text-white uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#2D3192] hover:bg-[#000000] duration-300 text-white uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="border border-[#0055A4] rounded-md">
+          <SwiperSlide className="border border-[#2D3192] rounded-md">
             <div>
               <Image
                 className="rounded-t-md w-full"
@@ -78,12 +78,12 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#2D3192] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="border border-[#0055A4] rounded-md">
+          <SwiperSlide className="border border-[#2D3192] rounded-md">
             <div>
               <Image
                 className="rounded-t-md w-full"
@@ -98,12 +98,12 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#2D3192] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="border border-[#0055A4] rounded-md">
+          <SwiperSlide className="border border-[#2D3192] rounded-md">
             <div>
               <Image
                 className="rounded-t-md w-full"
@@ -118,12 +118,12 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#2D3192] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="border border-[#0055A4] rounded-md">
+          <SwiperSlide className="border border-[#2D3192] rounded-md">
             <div>
               <Image
                 className="rounded-t-md w-full"
@@ -138,12 +138,12 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#2D3192] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="border border-[#0055A4] rounded-md">
+          <SwiperSlide className="border border-[#2D3192] rounded-md">
             <div>
               <Image
                 className="rounded-t-md w-full"
@@ -158,12 +158,12 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#2D3192] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="border border-[#0055A4] rounded-md">
+          <SwiperSlide className="border border-[#2D3192] rounded-md">
             <div>
               <Image
                 className="rounded-t-md w-full"
@@ -178,12 +178,12 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#2D3192] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="border border-[#0055A4] rounded-md">
+          <SwiperSlide className="border border-[#2D3192] rounded-md">
             <div>
               <Image
                 className="rounded-t-md w-full"
@@ -198,12 +198,12 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#2D3192] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="border border-[#0055A4] rounded-md">
+          <SwiperSlide className="border border-[#2D3192] rounded-md">
             <div>
               <Image
                 className="rounded-t-md w-full"
@@ -218,7 +218,7 @@ const Events = () => {
                 On Campus JOBS. Fair And Appropriate Technology Ltd Live
                 Interview
               </p>
-              <button className="w-full bg-[#0055a4] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
+              <button className="w-full bg-[#2D3192] text-white hover:bg-[#000000] duration-300 uppercase mt-[15px] oxanium text-base font-semibold px-5 py-[10px] rounded">
                 View Details
               </button>
             </div>

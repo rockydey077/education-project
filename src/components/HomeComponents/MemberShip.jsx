@@ -8,11 +8,11 @@ import styles from "./MemberShip.module.css";
 const MemberShip = () => {
   return (
     <div className="max-w-[1360px] mx-auto py-[50px] space-y-5 px-2 lg:px-0">
-      <h1 className="text-[#0055A4] rubik text-[30px] lg:text-[50px] font-semibold uppercase text-center">
+      <h1 className="text-[#2D3192] rubik text-[30px] lg:text-[50px] font-semibold uppercase text-center">
         membership Affiliation
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-5">
-        <div className={`${styles.box} border border-[#0055A4] rounded-md`}>
+        <div className={`${styles.box} border border-[#2D3192] rounded-md`}>
           <div>
             <Image
               src={basisImg}
@@ -33,7 +33,7 @@ const MemberShip = () => {
           </div>
         </div>
 
-        <div className={`${styles.box} border border-[#0055A4] rounded-md`}>
+        <div className={`${styles.box} border border-[#2D3192] rounded-md`}>
           <div>
             <Image
               src={baccoImg}
@@ -54,7 +54,7 @@ const MemberShip = () => {
           </div>
         </div>
 
-        <div className={`${styles.box} border border-[#0055A4] rounded-md`}>
+        <div className={`${styles.box} border border-[#2D3192] rounded-md`}>
           <div>
             <Image
               src={bcsImg}
@@ -75,7 +75,7 @@ const MemberShip = () => {
           </div>
         </div>
 
-        <div className={`${styles.box} border border-[#0055A4] rounded-md`}>
+        <div className={`${styles.box} border border-[#2D3192] rounded-md`}>
           <div>
             <Image
               src={eCabImg}

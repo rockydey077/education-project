@@ -18,7 +18,7 @@ const Footer = () => {
       <div className={` absolute top-3 left-[48%]`}>
         <button
           onClick={scrollToTop}
-          className={`${styles.footer_animation} text-xl text-white p-3 bg-[#0055A4] rounded-full w-fit hover:bg-[#323A40] cursor-pointer`}
+          className={`${styles.footer_animation} text-xl text-white p-3 bg-[#2D3192] rounded-full w-fit hover:bg-[#323A40] cursor-pointer`}
         >
           <FaArrowUp />
         </button>
@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="space-y-5 w-full lg:w-[25%]">
           <div className="flex items-center py-[15px]">
             <div className="w-full border-b-2 border-[#EE9CA7]"></div>
-            <h2 className="rubik w-full mx-[10px] text-nowrap text-[25px] font-extrabold uppercase text-[#0055a4]">
+            <h2 className="rubik w-full mx-[10px] text-nowrap text-[25px] font-extrabold uppercase text-[#2D3192]">
               Contact Us
             </h2>
             <div className="w-full border-b-2 border-[#EE9CA7]"></div>
@@ -39,7 +39,7 @@ const Footer = () => {
                 <div>
                   <svg
                     aria-hidden="true"
-                    className="e-font-icon-svg e-fas-mobile-alt w-[25px] h-[25px] fill-[#0055A4]"
+                    className="e-font-icon-svg e-fas-mobile-alt w-[25px] h-[25px] fill-[#2D3192]"
                     viewBox="0 0 320 512"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -47,14 +47,14 @@ const Footer = () => {
                   </svg>
                 </div>
                 <p className="text-base font-semibold lowercase rubik">
-                  01936-005817, 01936-005818
+                  01885-999222
                 </p>
               </div>
               <div className="flex items-center gap-[10px]">
                 <div>
                   <svg
                     aria-hidden="true"
-                    className="w-[25px] h-[25px] fill-[#0055a4] e-font-icon-svg e-fas-envelope"
+                    className="w-[25px] h-[25px] fill-[#2D3192] e-font-icon-svg e-fas-envelope"
                     viewBox="0 0 512 512"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -62,14 +62,14 @@ const Footer = () => {
                   </svg>
                 </div>
                 <p className="text-base font-semibold lowercase rubik">
-                  simt.dhaka@gmail.com
+                  diet.bteb@gmail.com
                 </p>
               </div>
               <div className="flex items-center gap-[10px]">
                 <div>
                   <svg
                     aria-hidden="true"
-                    className="w-[25px] h-[25px] fill-[#0055a4] e-font-icon-svg e-fas-map-marker-alt"
+                    className="w-[25px] h-[25px] fill-[#2D3192] e-font-icon-svg e-fas-map-marker-alt"
                     viewBox="0 0 384 512"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -77,19 +77,19 @@ const Footer = () => {
                   </svg>
                 </div>
                 <p className="text-base font-semibold lowercase rubik">
-                  M/3, Mirpur-14, Dhaka-1216
+                  Bosila, Mohammadpur, Dhaka-1207
                 </p>
               </div>
             </div>
           </div>
           <div className="flex items-center justify-center lg:justify-start text-2xl gap-5 text-[#FF0000]">
-            <div className="p-3 border-2 rounded-full border-[#0055a4] cursor-pointer transition-transform hover:rotate-[360deg] duration-300">
+            <div className="p-3 border-2 rounded-full border-[#2D3192] cursor-pointer transition-transform hover:rotate-[360deg] duration-300">
               <FaFacebookF />
             </div>
-            <div className="p-3 border-2 rounded-full border-[#0055a4] cursor-pointer transition-transform hover:rotate-[360deg] duration-300">
+            <div className="p-3 border-2 rounded-full border-[#2D3192] cursor-pointer transition-transform hover:rotate-[360deg] duration-300">
               <FaYoutube />
             </div>
-            <div className="p-3 border-2 rounded-full border-[#0055a4] cursor-pointer transition-transform hover:rotate-[360deg] duration-300">
+            <div className="p-3 border-2 rounded-full border-[#2D3192] cursor-pointer transition-transform hover:rotate-[360deg] duration-300">
               <IoLocationSharp />
             </div>
           </div>
@@ -98,7 +98,7 @@ const Footer = () => {
         <div className="space-y-5 w-full lg:w-[25%]">
           <div className="flex items-center py-[15px]">
             <div className="w-full border-b-2 border-[#EE9CA7]"></div>
-            <h2 className="rubik w-full mx-[10px] text-nowrap text-[25px] font-extrabold uppercase text-[#0055a4]">
+            <h2 className="rubik w-full mx-[10px] text-nowrap text-[25px] font-extrabold uppercase text-[#2D3192]">
               Facebook Page
             </h2>
             <div className="w-full border-b-2 border-[#EE9CA7]"></div>
@@ -122,18 +122,18 @@ const Footer = () => {
         <div className="space-y-5 w-full lg:w-[25%]">
           <div className="flex items-center py-[15px]">
             <div className="w-full border-b-2 border-[#EE9CA7]"></div>
-            <h2 className="rubik w-full mx-[10px] text-nowrap text-[25px] font-extrabold uppercase text-[#0055a4]">
+            <h2 className="rubik w-full mx-[10px] text-nowrap text-[25px] font-extrabold uppercase text-[#2D3192]">
               Important Link
             </h2>
             <div className="w-full border-b-2 border-[#EE9CA7]"></div>
           </div>
           <div className="flex flex-col items-center">
             <div className="space-y-[15px]">
-              <div className="flex items-center gap-[10px]">
+              <div className="flex items-center gap-[10px] group">
                 <div>
                   <svg
                     aria-hidden="true"
-                    className="w-[18px] h-[18px] fill-[#0055A4] hover:fill-[#FF0000]  e-font-icon-svg e-fas-unlink"
+                    className="w-[18px] h-[18px] fill-[#2D3192] group-hover:fill-[#FF0000]  e-font-icon-svg e-fas-unlink"
                     viewBox="0 0 512 512"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -142,16 +142,16 @@ const Footer = () => {
                 </div>
                 <Link
                   href="#"
-                  className="text-base font-semibold uppercase rubik hover:text-[#FF0000]"
+                  className="text-base font-semibold uppercase rubik group-hover:text-[#FF0000]"
                 >
                   BTEB
                 </Link>
               </div>
-              <div className="flex items-center gap-[10px]">
+              <div className="flex items-center gap-[10px] group">
                 <div>
                   <svg
                     aria-hidden="true"
-                    className="w-[18px] h-[18px] fill-[#0055A4] hover:fill-[#FF0000]  e-font-icon-svg e-fas-unlink"
+                    className="w-[18px] h-[18px] fill-[#2D3192] group-hover:fill-[#FF0000]  e-font-icon-svg e-fas-unlink"
                     viewBox="0 0 512 512"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -160,16 +160,16 @@ const Footer = () => {
                 </div>
                 <Link
                   href="#"
-                  className="text-base font-semibold uppercase rubik hover:text-[#FF0000]"
+                  className="text-base font-semibold uppercase rubik group-hover:text-[#FF0000]"
                 >
                   Ministry of Education
                 </Link>
               </div>
-              <div className="flex items-center gap-[10px]">
+              <div className="flex items-center gap-[10px] group">
                 <div>
                   <svg
                     aria-hidden="true"
-                    className="w-[18px] h-[18px] fill-[#0055A4] hover:fill-[#FF0000]  e-font-icon-svg e-fas-unlink"
+                    className="w-[18px] h-[18px] fill-[#2D3192] group-hover:fill-[#FF0000]  e-font-icon-svg e-fas-unlink"
                     viewBox="0 0 512 512"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -178,16 +178,16 @@ const Footer = () => {
                 </div>
                 <Link
                   href="#"
-                  className="text-base font-semibold uppercase rubik hover:text-[#FF0000]"
+                  className="text-base font-semibold uppercase rubik group-hover:text-[#FF0000]"
                 >
                   Directorate of Tech. Edu
                 </Link>
               </div>
-              <div className="flex items-center gap-[10px]">
+              <div className="flex items-center gap-[10px] group">
                 <div>
                   <svg
                     aria-hidden="true"
-                    className="w-[18px] h-[18px] fill-[#0055A4] hover:fill-[#FF0000]  e-font-icon-svg e-fas-unlink"
+                    className="w-[18px] h-[18px] fill-[#2D3192] group-hover:fill-[#FF0000]  e-font-icon-svg e-fas-unlink"
                     viewBox="0 0 512 512"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -196,7 +196,7 @@ const Footer = () => {
                 </div>
                 <Link
                   href="#"
-                  className="text-base font-semibold uppercase rubik hover:text-[#FF0000]"
+                  className="text-base font-semibold uppercase rubik group-hover:text-[#FF0000]"
                 >
                   Ministry Of ICT
                 </Link>
@@ -208,7 +208,7 @@ const Footer = () => {
         <div className="space-y-5 w-full lg:w-[25%]">
           <div className="flex items-center py-[15px]">
             <div className="w-full border-b-2 border-[#EE9CA7]"></div>
-            <h2 className="rubik w-full mx-[10px] text-nowrap text-[25px] font-extrabold uppercase text-[#0055a4]">
+            <h2 className="rubik w-full mx-[10px] text-nowrap text-[25px] font-extrabold uppercase text-[#2D3192]">
               Location
             </h2>
             <div className="w-full border-b-2 border-[#EE9CA7]"></div>
