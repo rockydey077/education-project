@@ -1,5 +1,8 @@
 import Image from "next/image";
 import computer from "../../../public/assets/departments/computer.webp";
+import electrical from "../../../public/assets/departments/Electrical.webp";
+import civil from "../../../public/assets/departments/Civil.webp";
+import electronics from "../../../public/assets/departments/electronics.webp";
 import styles from "./Department.module.css";
 import { FaLaptopCode } from "react-icons/fa6";
 
@@ -38,7 +41,7 @@ const Department = () => {
           <div
             className={`h-[300px] ${styles.card} z-10 relative overflow-hidden cursor-pointer`}
           >
-            <Image src={computer} width={400} height={400} alt="" />
+            <Image src={civil} width={400} height={400} alt="" />
             <div
               className={` flex flex-col items-center w-full absolute bottom-0 h-[80px] duration-500 ${styles.card_content} bg-white`}
             >
@@ -62,7 +65,7 @@ const Department = () => {
           <div
             className={`h-[300px] ${styles.card} z-10 relative overflow-hidden cursor-pointer`}
           >
-            <Image src={computer} width={400} height={400} alt="" />
+            <Image src={electrical} width={400} height={400} alt="" />
             <div
               className={` flex flex-col items-center w-full absolute bottom-0 h-[80px] duration-500 ${styles.card_content} bg-white`}
             >
@@ -86,7 +89,7 @@ const Department = () => {
           <div
             className={`h-[300px] ${styles.card} z-10 relative overflow-hidden cursor-pointer`}
           >
-            <Image src={computer} width={400} height={400} alt="" />
+            <Image src={electronics} width={400} height={400} alt="" />
             <div
               className={` flex flex-col items-center w-full absolute bottom-0 h-[80px] duration-500 ${styles.card_content} bg-white`}
             >
