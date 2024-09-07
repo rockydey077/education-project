@@ -4,6 +4,8 @@ import { FaFacebookF, FaArrowUp } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
 import { IoLocationSharp } from "react-icons/io5";
 import styles from "./Footer.module.css";
+import Image from "next/image";
+import fbImg from "../../../public/assets/facebook-page.png";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -104,7 +106,7 @@ const Footer = () => {
             <div className="w-full border-b-2 border-[#EE9CA7]"></div>
           </div>
           <div>
-            <iframe
+            {/* <iframe
               src="https://www.facebook.com/photo/?fbid=487043273428666&set=ecnf.100063689934356"
               width="100%"
               height={250}
@@ -113,7 +115,19 @@ const Footer = () => {
               frameborder="0"
               allowfullscreen="true"
               allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            ></iframe>
+            ></iframe> */}
+            <Link
+              href="https://www.facebook.com/dietpolytechnic"
+              target="_blank"
+            >
+              <Image
+                src={fbImg}
+                width={400}
+                height={400}
+                alt=""
+                className="w-full"
+              ></Image>
+            </Link>
           </div>
         </div>
         {/* Important Link */}
