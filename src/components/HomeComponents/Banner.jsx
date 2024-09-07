@@ -1,9 +1,20 @@
+import Image from "next/image";
 import styles from "./Banner.module.css";
 import { TiMediaPlay } from "react-icons/ti";
+import bannerImg from "../../../public/assets/banner.png";
 
 const Banner = () => {
   return (
-    <div className={`${styles.header_bg}`}>
+    <div>
+      <Image src={bannerImg} width={400} height={300} alt="banner image" className="w-full h-auto mt-20 lg:mt-[75px]" />
+    </div>
+  );
+};
+
+export default Banner;
+
+{
+  /* <div className={`${styles.header_bg}`}>
       <div className="hidden lg:flex items-center lg:h-[80vh] inset-0 bg-gradient-to-r from-[#0055A4] to-transparent">
         <div className="lg:w-[70%] oxanium text-white uppercase space-y-5 pl-5">
           <h3 className={`${styles.text_shadow} text-[25px] font-medium`}>
@@ -50,8 +61,5 @@ const Banner = () => {
           </button>
         </div>
       </div>
-    </div>
-  );
-};
-
-export default Banner;
+    </div> */
+}
