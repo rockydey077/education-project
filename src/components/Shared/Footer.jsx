@@ -105,16 +105,14 @@ const Footer = () => {
           </div>
           <div>
             <iframe
-              src="https://www.youtube.com/embed/HcLYoCmWOjI?si=s895h7rHtKK2ymRA"
+              src="https://www.facebook.com/photo/?fbid=487043273428666&set=ecnf.100063689934356"
               width="100%"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
               height={250}
-              loading="lazy"
-              className="border-0"
+              className="overflow-hidden border-none"
+              scrolling="no"
+              frameborder="0"
+              allowfullscreen="true"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
             ></iframe>
           </div>
         </div>
@@ -196,7 +194,7 @@ const Footer = () => {
                 </div>
                 <Link
                   href="#"
-                  className="text-base font-semibold uppercase rubik group-hover:text-[#FF0000]"
+                  className="text-base font-semibold uppercase rubik grouphover:text-[#FF0000]"
                 >
                   Ministry Of ICT
                 </Link>

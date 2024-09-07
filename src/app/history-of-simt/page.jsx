@@ -5,7 +5,7 @@ import React from "react";
 const HistoryPage = () => {
   return (
     <div>
-      <PageBanner heading={"History of SIMT"} />
+      <PageBanner heading={"History of DIET"} />
       <History />
     </div>
   );

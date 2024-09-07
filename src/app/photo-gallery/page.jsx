@@ -1,10 +1,10 @@
 import PageBanner from "@/components/Shared/PageBanner";
 import React from "react";
-import img1 from "../../../public/assets/gallery/DSC8374-scaled-1.jpg";
-import img2 from "../../../public/assets/gallery/DSC_8444-scaled-1.jpg";
-import img3 from "../../../public/assets/gallery/DSC_8483-scaled-1.jpg";
-import img4 from "../../../public/assets/gallery/DSC_8490-scaled-1.jpg";
-import img5 from "../../../public/assets/gallery/Electrical-industrial-Tour.jpg";
+import img1 from "../../../public/assets/gallery/img-1.jpg";
+import img2 from "../../../public/assets/gallery/img-2.jpg";
+import img3 from "../../../public/assets/gallery/img-3.jpg";
+import img4 from "../../../public/assets/gallery/img-4.jpg";
+import img5 from "../../../public/assets/gallery/img-5.jpg";
 import img6 from "../../../public/assets/gallery/Farewell-civil-arct-department.jpg";
 import img7 from "../../../public/assets/gallery/Farewell-civil.jpg";
 import img8 from "../../../public/assets/gallery/IMG_0177-scaled-1.jpg";
@@ -25,7 +25,7 @@ const GalleryPage = () => {
       <div className="max-w-[1360px] mx-auto py-[50px] grid grid-cols-1 lg:grid-cols-4 gap-5 px-2 lg:px-0">
         <Image
           src={img1}
-          className="w-full rounded-md"
+          className="w-full h-full rounded-md"
           width={400}
           height={400}
           alt="loading"
@@ -34,7 +34,7 @@ const GalleryPage = () => {
         <Image
           src={img2}
           width={400}
-          className="w-full rounded-md"
+          className="w-full h-full rounded-md"
           height={400}
           alt="loading"
           loading="lazy"
@@ -42,7 +42,7 @@ const GalleryPage = () => {
         <Image
           src={img3}
           width={400}
-          className="w-full rounded-md"
+          className="w-full h-full rounded-md"
           height={400}
           alt="loading"
           loading="lazy"
@@ -50,7 +50,7 @@ const GalleryPage = () => {
         <Image
           src={img4}
           width={400}
-          className="w-full rounded-md"
+          className="w-full h-full rounded-md"
           height={400}
           alt="loading"
           loading="lazy"
@@ -58,7 +58,7 @@ const GalleryPage = () => {
         <Image
           src={img5}
           width={400}
-          className="w-full rounded-md"
+          className="w-full h-full rounded-md"
           height={400}
           alt="loading"
           loading="lazy"
@@ -66,7 +66,7 @@ const GalleryPage = () => {
         <Image
           src={img6}
           width={400}
-          className="w-full rounded-md"
+          className="w-full h-full rounded-md"
           height={400}
           alt="loading"
           loading="lazy"
@@ -74,7 +74,7 @@ const GalleryPage = () => {
         <Image
           src={img7}
           width={400}
-          className="w-full rounded-md"
+          className="w-full h-full rounded-md"
           height={400}
           alt="loading"
           loading="lazy"
@@ -82,7 +82,7 @@ const GalleryPage = () => {
         <Image
           src={img8}
           width={400}
-          className="w-full rounded-md"
+          className="w-full h-full rounded-md"
           height={400}
           alt="loading"
           loading="lazy"
